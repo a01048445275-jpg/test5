@@ -1,0 +1,6 @@
+{
+  "name": "바이브 카페 주문서",
+  "description": "따뜻하고 아늑한 바이브 카페의 실시간 음료 주문 및 예상 금액 계산기 앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
