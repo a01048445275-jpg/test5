@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: '맑은 고딕', 'Malgun Gothic', 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    background-color: #faf6f0;
+    color: #4a3427;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+}
+
+/* 입력창 커스텀 포커스 스타일 */
+.cafe-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d6c7b9;
+  background-color: #ffffff;
+  color: #3b2a20;
+  transition: all 0.2s ease-in-out;
+  box-sizing: border-box;
+}
+
+.cafe-input:focus {
+  outline: none;
+  border-color: #6b4226;
+  box-shadow: 0 0 0 3px rgba(107, 66, 38, 0.2);
+}
+
+/* 주문하기 버튼 호버 스타일 */
+.cafe-btn-submit {
+  background-color: #6b4226;
+  color: #ffffff;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.cafe-btn-submit:hover {
+  background-color: #7e4f30;
+}
+
+.cafe-btn-submit:active {
+  transform: scale(0.99);
+}
